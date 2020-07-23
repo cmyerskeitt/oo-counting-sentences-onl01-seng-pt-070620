@@ -27,6 +27,6 @@ class String
   end
 
   def count_sentences
-    self.split("/.?!/")
+    self.split("/.?!/").collect do 
   end
 end
