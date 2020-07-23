@@ -30,5 +30,6 @@ class String
     binding.pry 
     self.split("/.?!/").reject {|x| x.empty?}
     return new array.length 
+    end
   end
 end
